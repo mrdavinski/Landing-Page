@@ -15,9 +15,45 @@ body{
     padding:0px 200px;
 
 }
-img{
+
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px 200px;
+}
+
+.full-picture-block {
+    display: flex;
+    gap: 20px;
+}
+
+
+.right-header > img{
     width:600px;
     height: 300px;
+}
+
+.picture-block > img{
+    width: 200px;
+    height: auto;
+    border:5px solid #3882f6;
+    border-radius: 12px;
+    
+}
+.picture-block{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    
+
+}
+.picture-block > p{
+    color: #1f2937;
+   
 }
 
 .left-header, .right-header{
@@ -63,6 +99,11 @@ h1,h2{
 h2{
     font-size: 24px;
     color: #f9faf8;
+}
+h3{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: bolder;
 }
 
 a,p,button{
