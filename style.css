@@ -50,6 +50,15 @@ body{
     padding-bottom: 100px;
 }
 
+.footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
 .full-picture-block {
     display: flex;
     gap: 20px;
