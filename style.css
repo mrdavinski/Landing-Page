@@ -18,6 +18,27 @@ body{
 
 }
 
+.call-to-action{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    
+}
+
+.sign-up-button{
+    border:2px solid #e5e7eb;
+}
 
 .random-info{
     display: flex;
@@ -131,6 +152,12 @@ h3{
     font-size: 36px;
     color:#1F2937;
     font-weight: bolder;
+}
+h4{
+    color:#e5e7eb;
+    font-size:24px;
+    margin: 0;
+    padding: 0;
 }
 
 a,p,button{
